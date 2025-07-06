@@ -146,7 +146,7 @@ class SDXLMergeKarcher:
                 logging.warning(f"Skipped key {key}: inconsistent number of patches")
                 continue
 
-            num_patches = len(patches[0])
+            num_patches = len(patches_list[0])
             merged_patches = []
 
             try:
