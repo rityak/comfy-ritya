@@ -1,2 +1,2 @@
-from .l2_norm import *
-from .l2_clip_comparison import *
+from .l2_unet_norm import *
+from .l2_clip_norm import *

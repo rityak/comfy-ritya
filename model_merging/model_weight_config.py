@@ -1,6 +1,7 @@
 class SDXLModelWeightConfig:
     @classmethod
     def INPUT_TYPES(cls):
+        # Defines the input types and their properties for the node.
         return {
             "required": {
                 "model": ("MODEL",),
@@ -21,6 +22,7 @@ class SDXLModelWeightConfig:
 
     def configure(self, model, clip, alpha_global, alpha_input_blocks, alpha_middle_block,
                   alpha_output_blocks, alpha_clip_l, alpha_clip_g):
+        # Configures and bundles the model, clip, and their respective block weights.
         weights = {
             "global": alpha_global,
             "input_blocks": alpha_input_blocks,
