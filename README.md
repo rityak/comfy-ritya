@@ -14,13 +14,6 @@ Gain deep insights into your Diffusion and CLIP models:
 * **⚡️ Plot CLIP L2 Norms**: Analyze the L2 norms of weights within the CLIP text encoders (CLIP-L, CLIP-G).
 * **⚡️ Plot CLIP Cosine Similarity**: Measure the cosine similarity between two CLIP models at a block level.
 
-### Model Merging
-Unlock new possibilities for combining models with sophisticated merging strategies:
-
-* **⚡️ SDXL Merge Weighted Blocks**: Perform block-wise merging of SDXL models with configurable weights for each input, middle, and output block.
-* **⚡️ SDXL Model Weight Config**: A dedicated node to easily set up and visualize the weight configurations for `SDXL Merge Weighted Blocks`.
-* **⚡️ SDXL Karcher Merge**: Harness the power of Karcher flow for geodesic interpolation of multiple SDXL models, potentially leading to smoother and more coherent merges.
-
 ---
 
 ## 💻 Installation
